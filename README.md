@@ -17,4 +17,5 @@ pip install -r requirements
 4. python 코드에 필요한 접속 정보(telegram chat_id, TOKEN, OPENAPI API KEY)를 입력한다.
 또한, Telegram 대화시 bot을 호출할 trigger 키워드도 임의로 입력한다.
 
+![gptbot_demo](https://user-images.githubusercontent.com/42177180/231630008-b3555167-4ca7-435e-940b-933b6752a010.gif)
 
