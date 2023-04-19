@@ -203,7 +203,7 @@ def echo(update, context):
                 try:
                     text = text_completer2(final_text)
                 except:
-                    text = "현재 ChatGPT4 API Beta 모델 엔진 사용신청중이며, Capacity 확부 후 사용 가능해 집니다. 시간이 다소 걸릴 것 같습니다."
+                    text = "현재 ChatGPT4 API Beta 모델 엔진 사용신청중이며, Capacity 확보 후 사용 가능해 집니다. 시간이 다소 걸릴 것 같습니다."
                 context.bot.send_message(chat_id=user_id, text=text)  
         elif enableTrigger == False:
             final_text = ""
